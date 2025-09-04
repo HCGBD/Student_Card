@@ -25,7 +25,7 @@ function MyForm ({ setEtudiant, setShowLoader,setShowCard }) {
     setShowCard(false) // Hide card while loading
     axios
       .get(
-        `/api/Student/GetStudentCardInfo/${ine}`
+        `https://api.parcoursupguinee.org/api/Student/GetStudentCardInfo/${ine}`
       )
       .then(response => {
         // Check if the response data indicates a non-existent student
