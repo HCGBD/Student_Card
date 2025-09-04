@@ -1,0 +1,3 @@
+Array [ '"react-to-print" did not receive a `contentRef` option or a optional-content param pass to its callback.' ]
+index.js:1:987
+Array [ "There is nothing to print" ]
